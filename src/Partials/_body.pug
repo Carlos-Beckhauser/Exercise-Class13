@@ -1,0 +1,61 @@
+body
+    nav.navbar 
+        .container.navbar__container 
+            h1.logo-studion  Studi
+                span.copy--primary on
+                span.logo-studion__subtitle Eventos 
+            ul.navbar__links 
+                li
+                    a(href='enterprise.pug') Empresa
+                li
+                    a(href='events.pug') Eventos
+                li
+                    a(href='gallery.pug') Galeria
+                li
+                    a(href='testimonials.pug') Depoimentos
+                li
+                    a(href='contact.pug') Contato
+            button.navbar__menu-btn
+                i.fas.fa-bars.fa-3x
+    header 
+        .slider 
+            .slide 
+                img(class="slide__background-image", src="./images/banner.jpg", alt="Studion Banner")
+                .slide__copy
+                    .slide__copy__container 
+                        h6 <span Class="copy--primary">Próximo evento</span> - Dia 25 de setembro às 19h
+                        h2
+                            span.copy--primary Creative 
+                            span Minds 
+                        button.btn.btn--slide Saiba Mais
+            .slide 
+                img(class="slide__background-image", src="./images/banner2.jpg", alt="Studion Banner")
+                .slide__copy
+                    .slide__copy__container 
+                        h6 <span Class="copy--primary">Próximo evento</span> - Dia 25 de setembro às 19h
+                        h2
+                            span.copy--primary FEST 
+                            span FORWARD 
+                        button.btn.btn--slide Saiba Mais
+            .slide 
+                img(class="slide__background-image", src="./images/banner3.jpg", alt="Studion Banner")
+                .slide__copy
+                    .slide__copy__container 
+                        h6 <span Class="copy--primary">Próximo evento</span> - Dia 25 de setembro às 19h
+                        h2
+                            span.copy--primary SHOW 
+                            span EVENT 
+                        button.btn.btn--slide Saiba Mais
+        
+
+                                
+
+            
+
+
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    script(src="./app.js") 
